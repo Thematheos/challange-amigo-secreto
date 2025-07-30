@@ -3,4 +3,4 @@ O desafio consiste em criar um código que possa receber nomes e armazená-los e
 Nessa primeira versão a aplicação apenas faz as funcionalidades exigidas.
 
 Apresentação por Vercel
-https://challange-amigo-secretooo.vercel.app/
+https://challange-amigo-secreto1-2.vercel.app/
