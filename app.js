@@ -1,6 +1,8 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let listaAmigos = [];
 
+let contador = 1;
+
         function exibirTextoNaTela(tag, texto) {
             let campo = document.querySelector(tag);
             campo.innerHTML = texto;
@@ -50,7 +52,12 @@ let listaAmigos = [];
 
             let resultado = document.getElementById("resultado");
             resultado.innerHTML = `O amigo sorteado é: ${amigoSorteado}`;
+
+            listaAmigos = []; 
+            atualizarListaNaTela(); 
+
         }
+
 
         function limparCampo() {
             let input = document.querySelector("input");
